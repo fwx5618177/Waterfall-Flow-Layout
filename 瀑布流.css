@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    position: relative;
+}
+.box{
+    padding: 5px;
+    float: left;
+    border:5px solid #ffffff
+}
+.box_img{
+    padding: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 5px #cccc0c;
+    border-radius: 5px;
+}
+
+/*竖版瀑布流*/
+/*.box_img img{
+    width: 150px;
+    height: auto;
+}*/
+
+/*横板瀑布流*/
+.box_img img{
+    width: auto;
+    height: 150px;
+}
